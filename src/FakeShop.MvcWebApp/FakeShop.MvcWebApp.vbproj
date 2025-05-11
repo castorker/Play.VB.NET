@@ -150,6 +150,7 @@
     <Compile Include="App_Start\BundleConfig.vb" />
     <Compile Include="App_Start\FilterConfig.vb" />
     <Compile Include="App_Start\RouteConfig.vb" />
+    <Compile Include="Controllers\CustomersController.vb" />
     <Compile Include="Controllers\ProductsController.vb" />
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
@@ -214,6 +215,8 @@
     <Content Include="Content\bootstrap-grid.css.map" />
     <Content Include="Views\Products\ProductList.vbhtml" />
     <Content Include="Views\Products\ProductDetail.vbhtml" />
+    <Content Include="Views\Customers\CustomerList.vbhtml" />
+    <Content Include="Views\Customers\CustomerDetail.vbhtml" />
     <Resource Include="Xml\Products.xml" />
     <Resource Include="Xml\Customers.xml" />
     <None Include="My Project\Application.myapp">
