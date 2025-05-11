@@ -5,6 +5,11 @@ Public Class Customer
     Inherits CommonBase
 
     ' Constructor
+    Public Sub New()
+        MyBase.New()
+
+    End Sub
+
     Public Sub New(ByVal customerId As Integer,
                    ByVal name As String, ByVal email As String,
                    ByVal address As String, ByVal phoneNumber As String)
