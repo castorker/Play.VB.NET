@@ -211,6 +211,8 @@
     <Content Include="Content\bootstrap-grid.rtl.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
+    <Resource Include="Xml\Products.xml" />
+    <Resource Include="Xml\Customers.xml" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -269,6 +271,24 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FakeShop.Common\FakeShop.Common.vbproj">
+      <Project>{0d83f4c9-a8d7-4f4a-9c8f-640867f0b65c}</Project>
+      <Name>FakeShop.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FakeShop.DataLayer\FakeShop.DataLayer.vbproj">
+      <Project>{6e2725db-0b37-4815-bd3b-37d8998e96dd}</Project>
+      <Name>FakeShop.DataLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FakeShop.EntityLayer\FakeShop.EntityLayer.vbproj">
+      <Project>{d17544df-6967-48a9-bd7e-141e37fe20e3}</Project>
+      <Name>FakeShop.EntityLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FakeShop.ViewModelLayer\FakeShop.ViewModelLayer.vbproj">
+      <Project>{38aedffa-9dcd-4e4f-af1f-0c446e6026e6}</Project>
+      <Name>FakeShop.ViewModelLayer</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

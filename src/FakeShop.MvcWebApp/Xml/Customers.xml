@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Customers>
+   <Customer>
+      <CustomerId>1</CustomerId>
+      <Name>Alice Johnson</Name>
+      <Email>alice.johnson@example.com</Email>
+      <Address>123 Maple Street, Lisbon</Address>
+      <PhoneNumber>+351 912345678</PhoneNumber>
+   </Customer>
+   <Customer>
+      <CustomerId>2</CustomerId>
+      <Name>Carlos Mendes</Name>
+      <Email>carlos.mendes@example.com</Email>
+      <Address>456 Oak Avenue, Porto</Address>
+      <PhoneNumber>+351 923456789</PhoneNumber>
+   </Customer>
+   <Customer>
+      <CustomerId>3</CustomerId>
+      <Name>Beatriz Silva</Name>
+      <Email>beatriz.silva@example.com</Email>
+      <Address>789 Pine Road, Coimbra</Address>
+      <PhoneNumber>+351 934567890</PhoneNumber>
+   </Customer>
+   <Customer>
+      <CustomerId>4</CustomerId>
+      <Name>Daniel Costa</Name>
+      <Email>daniel.costa@example.com</Email>
+      <Address>321 Cedar Lane, Faro</Address>
+      <PhoneNumber>+351 945678901</PhoneNumber>
+   </Customer>
+   <Customer>
+      <CustomerId>5</CustomerId>
+      <Name>Elena Santos</Name>
+      <Email>elena.santos@example.com</Email>
+      <Address>654 Birch Blvd, Braga</Address>
+      <PhoneNumber>+351 956789012</PhoneNumber>
+   </Customer>
+   <Customer>
+      <CustomerId>6</CustomerId>
+      <Name>Fernando Rocha</Name>
+      <Email>fernando.rocha@example.com</Email>
+      <Address>987 Spruce Drive, Aveiro</Address>
+      <PhoneNumber>+351 967890123</PhoneNumber>
+   </Customer>
+   <Customer>
+      <CustomerId>7</CustomerId>
+      <Name>Gabriela Nunes</Name>
+      <Email>gabriela.nunes@example.com</Email>
+      <Address>741 Redwood Way, Setúbal</Address>
+      <PhoneNumber>+351 978901234</PhoneNumber>
+   </Customer>
+   <Customer>
+      <CustomerId>8</CustomerId>
+      <Name>Hugo Ferreira</Name>
+      <Email>hugo.ferreira@example.com</Email>
+      <Address>852 Cypress Park, Viseu</Address>
+      <PhoneNumber>+351 989012345</PhoneNumber>
+   </Customer>
+   <Customer>
+      <CustomerId>9</CustomerId>
+      <Name>Isabel Martins</Name>
+      <Email>isabel.martins@example.com</Email>
+      <Address>963 Elm Square, Guimarães</Address>
+      <PhoneNumber>+351 990123456</PhoneNumber>
+   </Customer>
+   <Customer>
+      <CustomerId>10</CustomerId>
+      <Name>Jorge Almeida</Name>
+      <Email>jorge.almeida@example.com</Email>
+      <Address>159 Aspen Hill, Leiria</Address>
+      <PhoneNumber>+351 901234567</PhoneNumber>
+   </Customer>
+   <Customer>
+      <CustomerId>11</CustomerId>
+      <Name>Katarina Ribeiro</Name>
+      <Email>katarina.ribeiro@example.com</Email>
+      <Address>753 Magnolia Court, Madeira</Address>
+      <PhoneNumber>+351 912345678</PhoneNumber>
+   </Customer>
+</Customers>
