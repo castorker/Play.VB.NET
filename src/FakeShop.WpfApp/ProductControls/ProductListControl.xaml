@@ -8,6 +8,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <UserControl.Resources>
+        <!-- Dim viewModel As New ProductViewModel -->
         <vm:ProductViewModel x:Key="viewModel" />
     </UserControl.Resources>
     <Grid>

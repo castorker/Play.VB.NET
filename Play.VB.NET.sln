@@ -14,6 +14,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "FakeShop.WpfApp", "src\Fake
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "FakeShop.ViewModelLayer", "src\FakeShop.ViewModelLayer\FakeShop.ViewModelLayer.vbproj", "{38AEDFFA-9DCD-4E4F-AF1F-0C446E6026E6}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "FakeShop.DataLayer", "src\FakeShop.DataLayer\FakeShop.DataLayer.vbproj", "{6E2725DB-0B37-4815-BD3B-37D8998E96DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +38,10 @@ Global
 		{38AEDFFA-9DCD-4E4F-AF1F-0C446E6026E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38AEDFFA-9DCD-4E4F-AF1F-0C446E6026E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38AEDFFA-9DCD-4E4F-AF1F-0C446E6026E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E2725DB-0B37-4815-BD3B-37D8998E96DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E2725DB-0B37-4815-BD3B-37D8998E96DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E2725DB-0B37-4815-BD3B-37D8998E96DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E2725DB-0B37-4815-BD3B-37D8998E96DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,6 +51,7 @@ Global
 		{0D83F4C9-A8D7-4F4A-9C8F-640867F0B65C} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{7ABFA0EA-27C4-434B-8BB6-76EE9397F6D4} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{38AEDFFA-9DCD-4E4F-AF1F-0C446E6026E6} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{6E2725DB-0B37-4815-BD3B-37D8998E96DD} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BFEA908F-9D9A-407B-9091-14D024076116}

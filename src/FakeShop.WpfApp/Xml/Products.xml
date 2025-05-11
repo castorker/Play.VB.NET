@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Products>
+  <Product>
+    <ProductId>100</ProductId>
+    <Name>Wireless Mouse</Name>
+    <Description>Ergonomic wireless mouse with adjustable DPI.</Description>
+    <Sku>WM-1001</Sku>
+    <Price>24.99</Price>
+    <StockQuantity>150</StockQuantity>
+  </Product>  
+  <Product>
+    <ProductId>200</ProductId>
+    <Name>Mechanical Keyboard</Name>
+    <Description>RGB backlit mechanical keyboard with brown switches.</Description>
+    <Sku>MK-2001</Sku>
+    <Price>79.99</Price>
+    <StockQuantity>85</StockQuantity>
+  </Product>
+  <Product>
+    <ProductId>300</ProductId>
+    <Name>Gaming Headset</Name>
+    <Description>Noise-canceling gaming headset with surround sound.</Description>
+    <Sku>GH-3001</Sku>
+    <Price>59.99</Price>
+    <StockQuantity>120</StockQuantity>
+  </Product>
+  <Product>
+    <ProductId>400</ProductId>
+    <Name>USB-C Docking Station</Name>
+    <Description>Multi-port USB-C docking station for laptops.</Description>
+    <Sku>UDS-4001</Sku>
+    <Price>89.99</Price>
+    <StockQuantity>60</StockQuantity>
+  </Product>
+  <Product>
+    <ProductId>500</ProductId>
+    <Name>Portable SSD</Name>
+    <Description>500GB external solid-state drive with high-speed transfer.</Description>
+    <Sku>PSSD-5001</Sku>
+    <Price>99.99</Price>
+    <StockQuantity>40</StockQuantity>
+  </Product>
+  <Product>
+    <ProductId>600</ProductId>
+    <Name>Smartwatch</Name>
+    <Description>Fitness smartwatch with heart rate monitoring.</Description>
+    <Sku>SW-6001</Sku>
+    <Price>129.99</Price>
+    <StockQuantity>75</StockQuantity>
+  </Product>
+  <Product>
+    <ProductId>700</ProductId>
+    <Name>Bluetooth Speaker</Name>
+    <Description>Portable Bluetooth speaker with powerful bass.</Description>
+    <Sku>BS-7001</Sku>
+    <Price>39.99</Price>
+    <StockQuantity>90</StockQuantity>
+  </Product>
+  <Product>
+    <ProductId>800</ProductId>
+    <Name>4K Monitor</Name>
+    <Description>27-inch 4K UHD monitor with HDR support.</Description>
+    <Sku>MON-8001</Sku>
+    <Price>349.99</Price>
+    <StockQuantity>30</StockQuantity>
+  </Product>
+  <Product>
+    <ProductId>900</ProductId>
+    <Name>Wireless Earbuds</Name>
+    <Description>True wireless earbuds with noise cancellation.</Description>
+    <Sku>WE-9001</Sku>
+    <Price>79.99</Price>
+    <StockQuantity>110</StockQuantity>
+  </Product>
+  <Product>
+    <ProductId>1000</ProductId>
+    <Name>Laptop Cooling Pad</Name>
+    <Description>Adjustable laptop cooling pad with quiet fans.</Description>
+    <Sku>LCP-10001</Sku>
+    <Price>29.99</Price>
+    <StockQuantity>130</StockQuantity>
+  </Product>
+</Products>

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{38AEDFFA-9DCD-4E4F-AF1F-0C446E6026E6}</ProjectGuid>
+    <ProjectGuid>{6E2725DB-0B37-4815-BD3B-37D8998E96DD}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>FakeShop.ViewModelLayer</RootNamespace>
-    <AssemblyName>FakeShop.ViewModelLayer</AssemblyName>
+    <RootNamespace>FakeShop.DataLayer</RootNamespace>
+    <AssemblyName>FakeShop.DataLayer</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>Windows</MyType>
     <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
@@ -19,7 +19,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>FakeShop.ViewModelLayer.xml</DocumentationFile>
+    <DocumentationFile>FakeShop.DataLayer.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -28,7 +28,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>FakeShop.ViewModelLayer.xml</DocumentationFile>
+    <DocumentationFile>FakeShop.DataLayer.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -45,6 +45,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
@@ -64,7 +65,6 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CustomerViewModel.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -80,7 +80,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="ProductViewModel.vb" />
+    <Compile Include="ProductManager.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -105,10 +105,6 @@
     <ProjectReference Include="..\FakeShop.Common\FakeShop.Common.vbproj">
       <Project>{0d83f4c9-a8d7-4f4a-9c8f-640867f0b65c}</Project>
       <Name>FakeShop.Common</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\FakeShop.DataLayer\FakeShop.DataLayer.vbproj">
-      <Project>{6e2725db-0b37-4815-bd3b-37d8998e96dd}</Project>
-      <Name>FakeShop.DataLayer</Name>
     </ProjectReference>
     <ProjectReference Include="..\FakeShop.EntityLayer\FakeShop.EntityLayer.vbproj">
       <Project>{d17544df-6967-48a9-bd7e-141e37fe20e3}</Project>
