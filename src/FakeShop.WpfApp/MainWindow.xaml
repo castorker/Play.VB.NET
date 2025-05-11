@@ -14,11 +14,13 @@
         <Menu IsMainMenu="True">
             <MenuItem Header="_File">
                 <MenuItem Header="E_xit"
-                  Click="Exit_Click" />
+                          Click="Exit_Click" />
             </MenuItem>
             <MenuItem Header="Products">
+                <MenuItem Header="List"
+                          Click="ProductList_Click" />
                 <MenuItem Header="Detail"
-                  Click="ProductDetail_Click" />
+                          Click="ProductDetail_Click" />
             </MenuItem>
             <MenuItem Header="Customers">
                 <MenuItem Header="Detail"
