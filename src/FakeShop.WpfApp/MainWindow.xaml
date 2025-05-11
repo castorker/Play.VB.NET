@@ -5,8 +5,28 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FakeShop.WpfApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="FakeShop Application" WindowStartupLocation="CenterScreen" Height="450" Width="800">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Menu IsMainMenu="True">
+            <MenuItem Header="_File">
+                <MenuItem Header="E_xit"
+                  Click="Exit_Click" />
+            </MenuItem>
+            <MenuItem Header="Products">
+                <MenuItem Header="Detail"
+                  Click="ProductDetail_Click" />
+            </MenuItem>
+            <MenuItem Header="Customers">
+                <MenuItem Header="Detail"
+                  Click="CustomerDetail_Click" />
+            </MenuItem>
+        </Menu>
+        <Grid Grid.Row="1"
+          Name="contentArea"
+          Margin="10" />
     </Grid>
 </Window>
