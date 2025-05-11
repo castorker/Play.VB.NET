@@ -5,6 +5,11 @@ Public Class Product
     Inherits CommonBase
 
     ' Constructor
+    Public Sub New()
+        MyBase.New()
+
+    End Sub
+
     Public Sub New(ByVal productId As Integer, ByVal name As String,
                    ByVal description As String, ByVal sku As String,
                    ByVal price As Decimal, ByVal stockQuantity As Integer)

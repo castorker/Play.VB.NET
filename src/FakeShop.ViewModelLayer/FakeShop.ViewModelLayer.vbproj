@@ -79,6 +79,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="ProductViewModel.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -98,6 +99,16 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FakeShop.Common\FakeShop.Common.vbproj">
+      <Project>{0d83f4c9-a8d7-4f4a-9c8f-640867f0b65c}</Project>
+      <Name>FakeShop.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FakeShop.EntityLayer\FakeShop.EntityLayer.vbproj">
+      <Project>{d17544df-6967-48a9-bd7e-141e37fe20e3}</Project>
+      <Name>FakeShop.EntityLayer</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
