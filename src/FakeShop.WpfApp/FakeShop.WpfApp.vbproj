@@ -176,5 +176,8 @@
   <ItemGroup>
     <Resource Include="Xml\Products.xml" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Xml\Customers.xml" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
